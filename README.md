@@ -4,6 +4,8 @@
 
 ## 预览
 
+[在线演示](https://wenbiyou.github.io/survival/)
+
 网站采用赛博朋克/末日废土风格的视觉设计，配合实时倒计时、进度条和激励语句，营造紧迫感和使命感。
 
 ## 功能特性
@@ -30,8 +32,8 @@
 
 ```javascript
 const CONFIG = {
-  startDate: "2026-03-08",  // 开始日期
-  endDate: "2026-04-01",    // 结束日期（修改这里！）
+  startDate: "2026-03-08", // 开始日期
+  endDate: "2026-04-01", // 结束日期（修改这里！）
 };
 ```
 
@@ -71,12 +73,12 @@ python3 -m http.server 8000
 
 ```css
 :root {
-  --bg-color: #0a0a0a;      /* 背景色 */
-  --warning-red: #ff3333;    /* 警示红 */
-  --toxic-green: #00ff41;    /* 荧光绿 */
-  --amber: #ffaa00;          /* 琥珀色 */
-  --gray: #333;              /* 灰色 */
-  --light-gray: #888;        /* 浅灰 */
+  --bg-color: #0a0a0a; /* 背景色 */
+  --warning-red: #ff3333; /* 警示红 */
+  --toxic-green: #00ff41; /* 荧光绿 */
+  --amber: #ffaa00; /* 琥珀色 */
+  --gray: #333; /* 灰色 */
+  --light-gray: #888; /* 浅灰 */
 }
 ```
 
